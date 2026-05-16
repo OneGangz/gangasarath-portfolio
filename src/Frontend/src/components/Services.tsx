@@ -1,4 +1,3 @@
-import React from 'react';
 import { Lightbulb, Cpu, Users } from 'lucide-react';
 
 const services = [

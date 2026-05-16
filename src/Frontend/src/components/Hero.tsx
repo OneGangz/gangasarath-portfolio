@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
 import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa';
@@ -12,22 +11,22 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={{ color: 'var(--primary)', fontSize: '1.25rem', marginBottom: '1rem' }}>
-            Lead Software Engineer & Architect
+          <h2 style={{ color: 'var(--primary)', fontSize: '1.25rem', marginBottom: '1rem', fontWeight: '600', letterSpacing: '0.05em' }}>
+            SENIOR BACKEND ENGINEER
           </h2>
           <h1 style={{ fontSize: '4.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>
-            Crafting Scalable <span style={{ color: 'var(--primary)' }}>Digital Solutions</span> with Precision.
+            Building Scalable <span style={{ color: 'var(--primary)' }}>Enterprise APIs</span> & Systems.
           </h1>
-          <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', marginBottom: '2.5rem', maxWidth: '600px' }}>
-            I am Gangasarath S, a tech enthusiast, evangelist, and self-taught developer + architect specialized in .NET and modern web technologies.
+          <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', marginBottom: '2.5rem', maxWidth: '650px', lineHeight: '1.7' }}>
+            I am Gangasarath S, a Senior Backend Engineer and Architect with 13+ years of experience specializing in .NET Core, Microservices, and SQL Server performance optimization.
           </p>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
             <a href="#contact" className="btn btn-primary">
-              Work with me <ChevronRight size={20} style={{ marginLeft: '0.5rem' }} />
+              Get In Touch <ChevronRight size={20} style={{ marginLeft: '0.5rem' }} />
             </a>
-            <div style={{ display: 'flex', gap: '1rem', marginLeft: '1rem' }}>
-              <a href="https://github.com/OneGangz" target="_blank" className="nav-link"><Github size={24} /></a>
-              <a href="https://in.linkedin.com/in/onegangz" target="_blank" className="nav-link"><Linkedin size={24} /></a>
+            <div style={{ display: 'flex', gap: '1.25rem', marginLeft: '1.5rem' }}>
+              <a href="https://github.com/OneGangz" target="_blank" rel="noreferrer" className="nav-link" style={{ display: 'flex', alignItems: 'center' }}><Github size={24} /></a>
+              <a href="https://linkedin.com/in/gangasarath-s-19793a41" target="_blank" rel="noreferrer" className="nav-link" style={{ display: 'flex', alignItems: 'center' }}><Linkedin size={24} /></a>
             </div>
           </div>
         </motion.div>

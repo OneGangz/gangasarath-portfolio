@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Navbar = () => {
   return (
     <nav>
@@ -8,6 +6,7 @@ const Navbar = () => {
         <div className="nav-links">
           <a href="#about" className="nav-link">About</a>
           <a href="#skills" className="nav-link">Skills</a>
+          <a href="#experience" className="nav-link">Experience</a>
           <a href="#services" className="nav-link">Services</a>
           <a href="#contact" className="nav-link">Contact</a>
         </div>
