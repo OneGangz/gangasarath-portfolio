@@ -4,7 +4,7 @@ import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--glass-border)', background: 'rgba(0,0,0,0.2)' }}>
-      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div className="container footer-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <p style={{ fontWeight: '700', fontSize: '1.25rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>GANGASARATH S</p>
           <p style={{ color: 'var(--text-muted)' }}>© 2026 Senior Backend Engineer</p>
