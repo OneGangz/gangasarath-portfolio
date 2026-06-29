@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container footer-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <p style={{ fontWeight: '700', fontSize: '1.25rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>GANGASARATH S</p>
-          <p style={{ color: 'var(--text-muted)' }}>© 2026 Senior Backend Engineer</p>
+          <p style={{ color: 'var(--text-muted)' }}>© 2026 Senior Technical Analyst | Senior .NET Developer</p>
         </div>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
           <a href="https://github.com/OneGangz" target="_blank" rel="noreferrer" className="nav-link"><Github size={20} /></a>
-          <a href="https://linkedin.com/in/gangasarath-s-19793a41" target="_blank" rel="noreferrer" className="nav-link"><Linkedin size={20} /></a>
+          <a href="https://linkedin.com/in/OneGangz" target="_blank" rel="noreferrer" className="nav-link"><Linkedin size={20} /></a>
           <a href="mailto:gangasarath@live.com" className="nav-link"><Mail size={20} /></a>
         </div>
       </div>

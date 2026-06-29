@@ -5,13 +5,13 @@ const About = () => {
       <div className="glass-card" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2.5rem', alignItems: 'center' }}>
         <div>
           <h3 style={{ fontSize: '1.75rem', marginBottom: '1.5rem', color: 'var(--primary)' }}>
-            Senior Backend Engineer & Software Architect
+            Senior Technical Analyst & Senior .NET Developer
           </h3>
           <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', color: 'var(--text-main)' }}>
-            Senior Backend Engineer with 13+ years building enterprise-grade applications using C# and .NET/.NET Core. Expert in designing RESTful APIs, microservices architecture, and SQL Server optimization for high-performance systems.
+            Senior .NET Professional with 13+ years of experience in requirement analysis, software design, architecture, development, testing, deployment, and maintenance of enterprise applications using Microsoft technologies.
           </p>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)' }}>
-            Strong focus on clean, maintainable code, SOLID principles, and security best practices including JWT/OAuth2. Proven track record modernizing legacy systems, optimizing database query performances, and collaborating with cross-functional teams to deliver scalable, reliable solutions.
+            Expertise in C#, .NET Framework, .NET Core, ASP.NET Core, REST APIs, Microservices Architecture, SQL Server, and design patterns. Proven ability to lead development teams, mentor engineers, perform code reviews, troubleshoot production issues, and deliver scalable, maintainable, and high-quality solutions.
           </p>
         </div>
         <div style={{ background: 'rgba(255, 255, 255, 0.02)', padding: '2rem', borderRadius: '1rem', border: '1px solid var(--glass-border)' }}>

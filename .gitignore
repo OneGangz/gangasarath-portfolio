@@ -46,3 +46,7 @@ ehthumbs.db
 # Vite specific
 dist-ssr
 *.local
+
+# .NET Build Outputs
+[Bb]in/
+[Oo]bj/

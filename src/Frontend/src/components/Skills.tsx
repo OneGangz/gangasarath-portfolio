@@ -2,30 +2,48 @@ import { motion } from 'framer-motion';
 
 const skillCategories = [
   {
-    title: 'Backend Development',
+    title: 'Core .NET & Microsoft Tech',
     skills: [
-      { name: 'C# & .NET Core', level: 95 },
-      { name: 'ASP.NET Core Web API', level: 95 },
-      { name: 'Microservices & Clean Architecture', level: 95 },
-      { name: 'SOLID Principles & Design Patterns', level: 90 }
+      { name: 'C# & .NET Framework 4.x', level: 95 },
+      { name: '.NET Core & .NET 6/7/8', level: 95 },
+      { name: 'ASP.NET Core MVC / Web API', level: 95 },
+      { name: 'Windows Apps & Web Services', level: 90 }
     ]
   },
   {
-    title: 'Data & Optimization',
+    title: 'Architecture, Design & Security',
     skills: [
-      { name: 'SQL Server & T-SQL', level: 90 },
-      { name: 'Stored Procedures & Indexing', level: 90 },
-      { name: 'Query & DB Performance Tuning', level: 90 },
-      { name: 'LINQ & Entity Framework Core', level: 95 }
+      { name: 'Microservices & REST APIs', level: 95 },
+      { name: 'Clean Architecture & SOLID', level: 95 },
+      { name: 'Domain-Driven Design (DDD)', level: 85 },
+      { name: 'JWT, OAuth2 & Identity Server', level: 90 }
     ]
   },
   {
-    title: 'Security & Cloud & DevOps',
+    title: 'Database & Caching',
     skills: [
-      { name: 'Authentication & JWT & OAuth2', level: 95 },
-      { name: 'Microsoft Azure Services', level: 80 },
-      { name: 'CI/CD Pipelines & IIS', level: 85 },
-      { name: 'Linux (Ubuntu) & Git', level: 85 }
+      { name: 'SQL Server, T-SQL & Stored Procs', level: 90 },
+      { name: 'Entity Framework Core & LINQ', level: 95 },
+      { name: 'Query Optimization & Tuning', level: 90 },
+      { name: 'In-memory Caching', level: 85 }
+    ]
+  },
+  {
+    title: 'DevOps, Cloud & Tools',
+    skills: [
+      { name: 'Microsoft Azure (VMs, Deployments)', level: 80 },
+      { name: 'Docker & CI/CD Pipelines', level: 80 },
+      { name: 'IIS Administration & Server Config', level: 90 },
+      { name: 'VS Code, Git, Postman & Cursor', level: 95 }
+    ]
+  },
+  {
+    title: 'Testing, Frontend & Observability',
+    skills: [
+      { name: 'xUnit Testing & Mocking', level: 90 },
+      { name: 'HTML5, CSS3, JS & jQuery', level: 85 },
+      { name: 'React (basic exposure)', level: 70 },
+      { name: 'Serilog & Observability / Logging', level: 90 }
     ]
   }
 ];

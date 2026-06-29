@@ -1,7 +1,8 @@
 using Portfolio.Application;
 using Portfolio.Infrastructure;
+using Portfolio.Infrastructure.Persistence;
 using Serilog;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
