@@ -142,7 +142,7 @@ const Experience = () => {
               <div className="glass-card" style={{ width: '100%', padding: '1.75rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
                   <div>
-                    <h3 style={{ fontSize: '1.35rem', color: 'white' }}>{exp.role}</h3>
+                    <h3 style={{ fontSize: '1.35rem', color: 'var(--text-main)' }}>{exp.role}</h3>
                     <span style={{ color: 'var(--primary)', fontWeight: '600' }}>{exp.company}</span>
                     <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginLeft: '0.5rem' }}>| {exp.location}</span>
                   </div>

@@ -10,7 +10,7 @@ const Contact = () => {
             <label>Name</label>
             <input 
               type="text" 
-              style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', padding: '0.75rem', borderRadius: '0.5rem', color: 'white' }} 
+              style={{ padding: '0.75rem', borderRadius: '0.5rem' }} 
               placeholder="Your Name"
             />
           </div>
@@ -18,7 +18,7 @@ const Contact = () => {
             <label>Email</label>
             <input 
               type="email" 
-              style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', padding: '0.75rem', borderRadius: '0.5rem', color: 'white' }} 
+              style={{ padding: '0.75rem', borderRadius: '0.5rem' }} 
               placeholder="Your Email"
             />
           </div>
@@ -26,7 +26,7 @@ const Contact = () => {
             <label>Message</label>
             <textarea 
               rows={5} 
-              style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', padding: '0.75rem', borderRadius: '0.5rem', color: 'white', resize: 'none' }} 
+              style={{ padding: '0.75rem', borderRadius: '0.5rem', resize: 'none' }} 
               placeholder="How can I help you?"
             />
           </div>

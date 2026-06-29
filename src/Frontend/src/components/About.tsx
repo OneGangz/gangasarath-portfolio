@@ -14,24 +14,24 @@ const About = () => {
             Expertise in C#, .NET Framework, .NET Core, ASP.NET Core, REST APIs, Microservices Architecture, SQL Server, and design patterns. Proven ability to lead development teams, mentor engineers, perform code reviews, troubleshoot production issues, and deliver scalable, maintainable, and high-quality solutions.
           </p>
         </div>
-        <div style={{ background: 'rgba(255, 255, 255, 0.02)', padding: '2rem', borderRadius: '1rem', border: '1px solid var(--glass-border)' }}>
-          <h4 style={{ fontSize: '1.25rem', marginBottom: '1rem', color: 'var(--accent)' }}>Quick Details</h4>
+        <div style={{ background: 'rgba(255, 255, 255, 0.15)', padding: '2rem', borderRadius: '1rem', border: '1px solid var(--glass-border)' }}>
+          <h4 style={{ fontSize: '1.25rem', marginBottom: '1rem', color: 'var(--primary)' }}>Quick Details</h4>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <div>
               <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.9rem' }}>Location</span>
-              <strong style={{ color: 'white' }}>Noida, UP, India</strong>
+              <strong style={{ color: 'var(--text-main)' }}>Noida, UP, India</strong>
             </div>
             <div>
               <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.9rem' }}>Email</span>
-              <strong style={{ color: 'white' }}>gangasarath@live.com</strong>
+              <strong style={{ color: 'var(--text-main)' }}>gangasarath@live.com</strong>
             </div>
             <div>
               <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.9rem' }}>Phone</span>
-              <strong style={{ color: 'white' }}>+91-9582711726</strong>
+              <strong style={{ color: 'var(--text-main)' }}>+91-9582711726</strong>
             </div>
             <div>
               <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.9rem' }}>Education</span>
-              <strong style={{ color: 'white' }}>BCA, Mahatma Gandhi University (2006 – 2009)</strong>
+              <strong style={{ color: 'var(--text-main)' }}>BCA, Mahatma Gandhi University (2006 – 2009)</strong>
             </div>
           </div>
         </div>

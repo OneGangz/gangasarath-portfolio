@@ -62,7 +62,7 @@ const Skills = () => {
               {category.skills.map((skill, skillIdx) => (
                 <div key={skillIdx}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                    <span style={{ fontSize: '0.95rem', fontWeight: '500', color: 'white' }}>{skill.name}</span>
+                    <span style={{ fontSize: '0.95rem', fontWeight: '500', color: 'var(--text-main)' }}>{skill.name}</span>
                     <span style={{ fontSize: '0.95rem', color: 'var(--accent)', fontWeight: '600' }}>{skill.level}%</span>
                   </div>
                   <div style={{ background: 'var(--glass-border)', height: '6px', borderRadius: '3px', overflow: 'hidden' }}>
